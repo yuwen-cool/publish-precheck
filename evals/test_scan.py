@@ -155,8 +155,26 @@ class ScanGolden(unittest.TestCase):
         self.assertIn("法务提醒过", reasons)
 
     def test_shipped_example_wordlist_is_inert(self):
-        # 随包发布的示例词库全是注释，不得产生任何词条
+        # 随包发布状态下 data/wordlists 只有 README，不得产生任何词条
         self.assertEqual([e for e in scan.load_wordlists()], [])
+
+    def test_user_data_never_tracked_by_git(self):
+        # 数据安全铁律：data/ 下只允许 README 被 Git 跟踪。
+        # 违反此测试 = 未来 git pull 可能覆盖用户沉淀，禁止发布。
+        import subprocess
+
+        root = Path(__file__).resolve().parents[1]
+        top = subprocess.run(
+            ["git", "rev-parse", "--show-toplevel"], capture_output=True, text=True, cwd=root
+        )
+        if top.returncode != 0 or Path(top.stdout.strip()) != root:
+            self.skipTest("非独立发布仓库（开发副本嵌在外层仓库），跳过")
+        proc = subprocess.run(
+            ["git", "ls-files", "data"], capture_output=True, text=True, cwd=root
+        )
+        tracked = [l for l in proc.stdout.splitlines() if l.strip()]
+        offenders = [t for t in tracked if not t.lower().endswith("readme.md")]
+        self.assertEqual(offenders, [], f"data/ 下有非 README 文件被跟踪: {offenders}")
 
 
 if __name__ == "__main__":

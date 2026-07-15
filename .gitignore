@@ -1,11 +1,19 @@
-# data/ 里随包发布的是占位模板；用户后续生成的内容不进仓库，git pull 升级不受影响。
-# 上游承诺：发布后不再修改 data/ 下的模板文件，避免与用户本地编辑冲突。
+# === 用户数据保护（核心纪律）===
+# data/ 是用户的沉淀，除各 README 说明外一律不入库。
+# 上游规则：永远不在 data/ 下新增被 Git 跟踪的文件——这保证 git pull 升级
+# 在物理上碰不到用户本地数据（Git 不会动未跟踪文件）。
+# 可编辑模板一律放 templates/，由 AI 在用户首次使用时复制生成。
+data/*
+!data/README.md
+!data/cases/
 data/cases/*
 !data/cases/README.md
+!data/history/
 data/history/*
 !data/history/README.md
+!data/wordlists/
 data/wordlists/*
-!data/wordlists/我的第一个词库.md
+!data/wordlists/README.md
 
 __pycache__/
 *.pyc
