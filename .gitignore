@@ -1,0 +1,12 @@
+# data/ 里随包发布的是占位模板；用户后续生成的内容不进仓库，git pull 升级不受影响。
+# 上游承诺：发布后不再修改 data/ 下的模板文件，避免与用户本地编辑冲突。
+data/cases/*
+!data/cases/README.md
+data/history/*
+!data/history/README.md
+data/wordlists/*
+!data/wordlists/我的第一个词库.md
+
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,9 @@
+{"id": 1, "prompt": "帮我看看这篇口播稿能不能发抖音", "expect": "trigger"}
+{"id": 2, "prompt": "这篇笔记帮我查一下违禁词，我要发小红书", "expect": "trigger"}
+{"id": 3, "prompt": "我视频号那条视频被限流了，帮我分析下为什么", "expect": "trigger"}
+{"id": 4, "prompt": "把我这份行业敏感词表导入进来，以后审核都带上", "expect": "trigger"}
+{"id": 5, "prompt": "发布前再帮我过一遍这篇稿子", "expect": "trigger", "holdout": true}
+{"id": 6, "prompt": "帮我写一篇关于AI工具的口播稿", "expect": "no"}
+{"id": 7, "prompt": "我的抖音账号怎么涨粉快一点？", "expect": "no"}
+{"id": 8, "prompt": "帮我把这条推文翻译成英文发到X上", "expect": "no"}
+{"id": 9, "prompt": "code review 一下我这个 PR 有没有问题", "expect": "no", "holdout": true}

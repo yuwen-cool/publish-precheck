@@ -1,0 +1,434 @@
+{
+ "generated_at": "2026-07-15",
+ "terms": [
+  {
+   "rule": "general-community-safety.G01",
+   "title": "违法犯罪与违禁活动",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "代办假证|出售枪支|赌博平台|下注链接|招募赌客|传销加盟|教你制毒|买卖人口|非法交易",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G02",
+   "title": "露骨色情与色情资源",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "裸聊|成人视频|色情资源|私密视频|性行为实拍|无码|情色网站",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G03",
+   "title": "性暗示与低俗博眼球",
+   "severity": "high",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "性暗示|性挑逗|擦边|隐私部位特写|挑逗性标题|走光|偷拍",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G04",
+   "title": "未成年人性化与性侵害",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "未成年.{0,12}(裸照|裸聊|性暗示|性挑逗|不雅姿势)|儿童软色情|恋童|童星招募.{0,12}私密照",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G05",
+   "title": "暴力威胁、煽动与血腥画面",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "杀了他|打死|雇凶|暴力复仇|血肉模糊|尸体现场|虐杀|断肢|校园暴力",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G06",
+   "title": "自伤自杀",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "自杀方法|自残教程|一起自杀|鼓励自残|自杀挑战|割腕过程|轻生直播",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G07",
+   "title": "仇恨、歧视、侮辱与骚扰",
+   "severity": "high",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "地域歧视|民族歧视|性别歧视|都该消失|滚出这里|人肉他|去他评论区骂|持续私信骚扰|公开羞辱",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G08",
+   "title": "诈骗与欺骗性获利",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "官方客服退款|虚假中奖|网络兼职先交费|杀猪盘|刷单返利|冒充公检法|捐款到私人账户|保证高回报|钓鱼网站",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G09",
+   "title": "隐私与个人信息",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "身份证号|家庭住址|实时行程|病历|银行账号|手机号|微信号|人肉搜索|开盒|曝光隐私",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G10",
+   "title": "版权与未授权搬运",
+   "severity": "high",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "搬运|转载自|影视片段|他人视频|未经授权|整段录屏|去水印|素材来源网络",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G11",
+   "title": "危险谣言与误导",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "紧急转发|马上会地震|官方隐瞒|吃了会中毒|不要去医院|偏方能治|已被辟谣|内部消息|灾难预言",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G12",
+   "title": "未成年人权益与有害利用",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "体罚孩子|校园欺凌|未成年人饮酒|未成年人吸烟|逼孩子表演|诱导未成年人打赏|公开孩子隐私|未成年人危险挑战|鼓励辍学",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G13",
+   "title": "危险行为与模仿",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "危险挑战|无防护高空|危险驾驶|酒后驾驶|明火实验|电击挑战|窒息挑战|假装绑架|危险恶作剧|请勿模仿",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "general-community-safety.G14",
+   "title": "标题封面与正文严重不一致",
+   "severity": "medium",
+   "commercial_only": false,
+   "industries": [],
+   "pattern": "标题党|封面与正文不符|图文不符|视频里根本没有|标题说.{0,20}正文却",
+   "doc": "general-community-safety"
+  },
+  {
+   "rule": "commercial-expression.R01",
+   "title": "绝对化用语",
+   "severity": "medium",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "最好|唯一|全网(最[^，。！？\\s]{0,8}|第一|销量第一)|最高级|顶级|绝无仅有|全国第一|销量第一|行业第一",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R02",
+   "title": "不可考证话术",
+   "severity": "high",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "100%|国家级|世界级|纯天然|纯植物提取|知名机构认证|最新创造|最新发明|无副作用",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R03",
+   "title": "收益保证",
+   "severity": "critical",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "肯定回本|保证.{0,10}(收益|赚钱|回本)|月入过万|0基础变现|低门槛高收益|带你做到|你也能复制|稳赚|保本|躺赚|轻松月入|财富自由.{0,6}(方法|秘诀|课)|收益翻倍",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R04",
+   "title": "效果保证",
+   "severity": "high",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "(使用|只需|坚持)?\\s*[0-9一二三四五六七八九十百]+\\s*(天|周|个月|月|年).{0,12}(见效|消失|不见|学会|改善|变白|皮肤白|瘦|治好)",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R05",
+   "title": "站外引流元素",
+   "severity": "high",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "1[3-9][0-9]{9}|微信号|加我?微信|加我?[vV]|加微|进群|二维码|https?://|评论区领取|私信我发|看我主页|看我置顶|dd我|扣[1一].{0,4}(领|发|送)|应用(商店|市场)搜|注册(就|即)送|加[vV]",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R06",
+   "title": "促销信息字幕",
+   "severity": "medium",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "满.{0,8}减.{0,8}|买.{0,4}送.{0,4}|[0-9一二三四五六七八九十]+折|领券|优惠券",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R07",
+   "title": "专业身份噱头",
+   "severity": "high",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "(专家|医生|医师|老师|教授|营养师).{0,8}(推荐|力荐|都在用|认证|背书)",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R08",
+   "title": "贬低竞品",
+   "severity": "high",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "别的.{0,12}(都是|全是|不如|垃圾|割韭菜)|只有我|只有我们|竞品.{0,12}(垃圾|骗人|不行)",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R09",
+   "title": "引证与授权缺口",
+   "severity": "high",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "明星同款|联名|获奖|专利|检测(报告|数据)|榜单|排名|认证",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R10",
+   "title": "低价引流与抽奖",
+   "severity": "high",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "一元购|1元购|[0-9一二三四五六七八九十]+元秒杀|点赞.{0,8}抽奖|评论.{0,8}抽奖|瓜分现金|粉丝.{0,8}[1一]元抢到",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R11",
+   "title": "健康知识与商品同屏",
+   "severity": "critical",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "(养生|健康|疾病|症状|治疗|调理).{0,40}(购买|下单|链接|地址|电话|微信|商品卡)|(购买|下单|链接|地址|电话|微信|商品卡).{0,40}(养生|健康|疾病|症状|治疗|调理)",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R12",
+   "title": "诱导互动",
+   "severity": "medium",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "点赞.{0,10}(就|才|后).{0,12}(发|出|解锁|公开)|关注.{0,10}(才|后).{0,12}(给|发|看|领取)|不关注.{0,12}(看不到|不给)|点赞过万就出下集",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R13",
+   "title": "虚假人设与伪造证据",
+   "severity": "critical",
+   "commercial_only": true,
+   "industries": [],
+   "pattern": "伪造.{0,8}(截图|订单|聊天记录|流水|证书)|摆拍.{0,8}(成交|案例|客户)|假装.{0,8}(富豪|名校|专家|成功人士)|人设.{0,8}(财富|学历|收入|经历)",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "commercial-expression.R15",
+   "title": "受管控行业绝对化用语加严",
+   "severity": "high",
+   "commercial_only": true,
+   "industries": [
+    "medical",
+    "medical_beauty",
+    "health_food",
+    "pharma",
+    "finance",
+    "education"
+   ],
+   "pattern": "最好|唯一|全网(最[^，。！？\\s]{0,8}|第一|销量第一)|最高级|顶级|绝无仅有|全国第一|销量第一|行业第一",
+   "doc": "commercial-expression"
+  },
+  {
+   "rule": "medical-health.M01",
+   "title": "无资质医疗科普与医疗建议",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [
+    "medical",
+    "health"
+   ],
+   "pattern": "确诊|诊断|处方|(推荐|调整|指导).{0,8}(用药|剂量|疗程)|自行(停药|用药)|不用去医院|吃.{0,8}(抗生素|激素|中药方)",
+   "doc": "medical-health"
+  },
+  {
+   "rule": "medical-health.M02",
+   "title": "疗效与治愈率断言",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [
+    "medical",
+    "health"
+   ],
+   "pattern": "治愈率|有效率|根治|包治百病|药到病除|永不复发|(治好|痊愈|逆转).{0,10}(癌|糖尿病|高血压|近视|白发)|祖传秘方|神药|一招见效",
+   "doc": "medical-health"
+  },
+  {
+   "rule": "medical-health.M03",
+   "title": "处方药与医疗器械推广",
+   "severity": "critical",
+   "commercial_only": true,
+   "industries": [
+    "medical",
+    "health"
+   ],
+   "pattern": "处方药|医疗器械|三品一械|OTC|(药|器械|保健品).{0,12}(推广|带货|下单|抢购|囤)",
+   "doc": "medical-health"
+  },
+  {
+   "rule": "medical-health.M04",
+   "title": "医疗科普页购物链接与变相医疗广告",
+   "severity": "critical",
+   "commercial_only": true,
+   "industries": [
+    "medical",
+    "health"
+   ],
+   "pattern": "(养生|健康|疾病|症状|调理|科普).{0,40}(购物链接|商品卡|下单|购买|橱窗)|(购物链接|商品卡|橱窗).{0,40}(养生|健康|调理)",
+   "doc": "medical-health"
+  },
+  {
+   "rule": "medical-health.M05",
+   "title": "医疗身份背书与假冒医生",
+   "severity": "high",
+   "commercial_only": true,
+   "industries": [
+    "medical",
+    "health"
+   ],
+   "pattern": "(三甲|主任医师|医生|医师|医院|药房|儿保).{0,10}(推荐|同款|都在用|背书|力荐)|白大褂|假冒.{0,6}医生",
+   "doc": "medical-health"
+  },
+  {
+   "rule": "medical-health.M06",
+   "title": "疾病恐吓与编造健康故事营销",
+   "severity": "high",
+   "commercial_only": false,
+   "industries": [
+    "medical",
+    "health"
+   ],
+   "pattern": "再不.{0,10}就晚了|(拖|不治).{0,10}(癌变|恶化|瘫痪|没救)|吓得|编造.{0,8}(病例|健康故事)|别去医院|不用吃药.{0,10}(买|用)",
+   "doc": "medical-health"
+  },
+  {
+   "rule": "medical-health.M07",
+   "title": "违规问诊与医疗引流",
+   "severity": "high",
+   "commercial_only": true,
+   "industries": [
+    "medical",
+    "health"
+   ],
+   "pattern": "付费(问诊|咨询病情)|线上开药|(问诊|看病|病情).{0,12}(私信|站外|来找我)|评论区.{0,8}(问诊|报病情)",
+   "doc": "medical-health"
+  },
+  {
+   "rule": "finance.F01",
+   "title": "无资质荐股与投资建议",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [
+    "finance"
+   ],
+   "pattern": "荐股|牛股|抄底|目标价|(个股|股票|基金).{0,10}(推荐|买入|卖出|建仓)|带你炒股|老师带单|内部消息",
+   "doc": "finance"
+  },
+  {
+   "rule": "finance.F02",
+   "title": "保本保收益承诺",
+   "severity": "critical",
+   "commercial_only": true,
+   "industries": [
+    "finance"
+   ],
+   "pattern": "保本|稳赚|保底收益|保收益|无风险回报|固定回报|包回报|返本销售|年化.{0,4}[0-9]+%|只赚不赔",
+   "doc": "finance"
+  },
+  {
+   "rule": "finance.F03",
+   "title": "非法荐股引流拉群",
+   "severity": "critical",
+   "commercial_only": true,
+   "industries": [
+    "finance"
+   ],
+   "pattern": "(加|进|拉).{0,4}群.{0,12}(跟投|荐股|带单|买入)|付费(进|加)群|晒.{0,4}收益|收益截图|跟着老师(买|操作)",
+   "doc": "finance"
+  },
+  {
+   "rule": "finance.F04",
+   "title": "夸大收益隐瞒风险",
+   "severity": "high",
+   "commercial_only": true,
+   "industries": [
+    "finance"
+   ],
+   "pattern": "(收益|回报).{0,8}(高达|至少|轻松)|躺赚|翻倍|零风险|错过.{0,8}(后悔|再等十年)|闭眼(买|入)",
+   "doc": "finance"
+  },
+  {
+   "rule": "finance.F05",
+   "title": "金融黑灰产话术",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [
+    "finance"
+   ],
+   "pattern": "债务优化|反催收|全额退保|征信修复|停息挂账|协商还款.{0,10}(服务|收费|找我)",
+   "doc": "finance"
+  },
+  {
+   "rule": "finance.F06",
+   "title": "虚拟货币交易诱导",
+   "severity": "critical",
+   "commercial_only": false,
+   "industries": [
+    "finance"
+   ],
+   "pattern": "虚拟货币|炒币|币圈|USDT|(比特币|以太坊|数字货币).{0,12}(带单|交易所|开户|翻倍)",
+   "doc": "finance"
+  }
+ ],
+ "debunked_myths": [
+  {
+   "pattern": "赚米|搞米|恰米|回米|米到账",
+   "myth": "普通创作里说“钱/赚钱”会被限流，要写成“米/赚米”",
+   "note": "平台官方已澄清：普通创作场景说“钱”不会限流，极限词等限制只在带货、财经等特定场景生效。用“米”替代既没必要，谐音变体对抗还会被平台单独关注。",
+   "suggestion": "直接使用“钱/赚钱”等正常表达；如果内容涉及带货或理财，请按商业场景规则审查，而不是换谐音。"
+  },
+  {
+   "pattern": "薇信|薇心|嶶信|徾信|微❤",
+   "myth": "提到“微信”必须写成“薇信/薇心/嶶信”才安全",
+   "note": "“微信”一词本身不是敏感词；平台真正管控的是商业内容中的站外导流行为。谐音替代不改变导流性质，反而属于平台明确反对的变体对抗。",
+   "suggestion": "还原为正常表达。若确实在商业内容中引导加微信，问题在导流行为本身，请改用平台内组件或删除导流话术。"
+  },
+  {
+   "pattern": "[sS]了吧|s掉了|嘎了(?!嘣)",
+   "myth": "说“死”会被限流，要写成“s/嘎/über”等替代",
+   "note": "平台官方已澄清：普通创作场景说“死”不会限流。刻意用字母或谐音替代属于变体对抗，平台反对这种写法。",
+   "suggestion": "普通叙述直接用正常表达；如内容涉及自杀自残等高危主题，按社区安全规则审查主题本身，而不是替换字词。"
+  }
+ ]
+}
