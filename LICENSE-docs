@@ -1,0 +1,17 @@
+本仓库的文档与规则内容采用 CC BY 4.0 协议
+==========================================
+
+适用范围：本仓库中除代码文件（.py）以外的全部内容，包括但不限于
+SKILL.md、references/ 下的规则文档、templates/ 模板、README 等说明文件，
+以及 scripts/terms.json、evals/trigger_cases.jsonl 等规则与测试数据。
+
+协议：Creative Commons Attribution 4.0 International (CC BY 4.0)
+协议全文：https://creativecommons.org/licenses/by/4.0/legalcode.zh-hans
+
+这意味着：你可以自由地复制、转载、修改和商用这些内容（包括规则文档），
+但必须**署名**——注明来源为本项目（yuwen-publish-precheck，
+https://github.com/yuwen-cool/yuwen-publish-precheck）并标明是否做了修改。
+
+代码文件（.py）采用 MIT 协议，见 LICENSE 文件。
+
+Copyright (c) 2026 yuwen-cool

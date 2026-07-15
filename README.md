@@ -1,7 +1,7 @@
 # yuwen-publish-precheck｜发布前审
 
 <p>
-<img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT">
+<img src="https://img.shields.io/badge/License-MIT%20%2B%20CC%20BY%204.0-green" alt="License: MIT + CC BY 4.0">
 <img src="https://img.shields.io/badge/依赖-仅需%20Python%203-blue" alt="Python 3">
 <img src="https://img.shields.io/badge/平台-抖音%20·%20小红书%20·%20视频号-orange" alt="平台">
 <img src="https://img.shields.io/badge/规则依据-72%20条官方原文引文-8A2BE2" alt="规则依据">
@@ -155,4 +155,9 @@ git clone https://github.com/yuwen-cool/yuwen-publish-precheck.git ~/.cursor/ski
 
 ## License
 
-[MIT](LICENSE) © yuwen-cool
+双协议：
+
+- **代码**（`.py` 文件）：[MIT](LICENSE)——随便用；
+- **文档与规则内容**（规则文档、模板、数据等其余部分）：[CC BY 4.0](LICENSE-docs)——可以自由复制、修改、商用，但**转载和引用必须署名**，注明来自本项目。
+
+© 2026 yuwen-cool
