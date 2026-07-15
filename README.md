@@ -1,7 +1,7 @@
 # yuwen-publish-precheck｜发布前审
 
 <p>
-<img src="https://img.shields.io/badge/License-MIT%20%2B%20CC%20BY--NC%204.0-green" alt="License: MIT + CC BY-NC 4.0">
+<img src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-green" alt="License: CC BY-NC 4.0">
 <img src="https://img.shields.io/badge/依赖-仅需%20Python%203-blue" alt="Python 3">
 <img src="https://img.shields.io/badge/平台-抖音%20·%20小红书%20·%20视频号-orange" alt="平台">
 <img src="https://img.shields.io/badge/规则依据-72%20条官方原文引文-8A2BE2" alt="规则依据">
@@ -155,10 +155,10 @@ git clone https://github.com/yuwen-cool/yuwen-publish-precheck.git ~/.cursor/ski
 
 ## License
 
-双协议：
+[CC BY-NC 4.0](LICENSE)（全仓库统一）：
 
-- **代码**（`.py` 文件）：[MIT](LICENSE)——随便用；
-- **文档与规则内容**（规则文档、模板、数据等其余部分）：[CC BY-NC 4.0](LICENSE-docs)——分发、转载、修改都可以，但**必须署名**注明来自本项目；**商业性使用**（集成进对外产品/服务、转售、打包进收费工具或课程）需先联系作者取得同意。
+- **分发、转载、修改**：可以，但**必须署名**注明来自本项目；
+- **商业性使用**（集成进对外产品/服务、转售、打包进收费工具或课程）：需先联系作者取得同意；
 - **对使用者的明确豁免**：用本工具审核**你自己创作的内容**，无论内容本身是否商业性质（带货、广告、卖课都算你自己的内容），永远免费、无需授权。挡的是转售集成，不挡使用。
 
 © 2026 yuwen-cool
